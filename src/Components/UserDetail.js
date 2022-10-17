@@ -10,9 +10,11 @@ const Div = styled.div`
   margin: 25px;
   width: 100%;
 
-  @media only screen and (max-width: 800px) {
+    @media only screen and (max-width: 800px) {
     flex-direction: column;
     flex-wrap: nowrap;
+    flex: 100%;
+   
   }
 `;
 
