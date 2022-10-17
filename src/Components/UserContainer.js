@@ -66,6 +66,7 @@ const UserContainer = ({ fetchUsers, userData }) => {
   };
   useEffect(() => {
     fetchUsers();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
   return userData.loading ? (
     <h2>Loading...</h2>

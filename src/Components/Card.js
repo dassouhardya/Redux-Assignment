@@ -1,4 +1,3 @@
-import userEvent from "@testing-library/user-event";
 import React from "react";
 import styled from "styled-components";
 const Cards = styled.div`
@@ -32,7 +31,8 @@ const Card = (props) => {
     <Cards>
       <img
         src={props.data.imageUrl}
-        style={{ height: `8rem`, width: `8rem`,margin:`auto`,  }}
+        style={{ height: `8rem`, width: `8rem`,margin:`auto`}}
+        alt="user"
       ></img>
 
       <div>
