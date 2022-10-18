@@ -13,6 +13,8 @@ const Div = styled.div`
   @media only screen and (max-width: 800px) {
     flex-direction: column;
     flex-wrap: nowrap;
+    flex: 100%;
+   
   }
 `;
 
@@ -32,7 +34,7 @@ const Button = styled.button`
 const UserDetail = () => {
   const location = useLocation();
   const data = location.state.data;
-  console.log(data);
+  // console.log(data);
 
   const navigate = useNavigate();
   return (

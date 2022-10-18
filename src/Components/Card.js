@@ -20,9 +20,12 @@ const Cards = styled.div`
   // }
 
   @media only screen and (max-width: 800px) {
-    flex-direction:column;
-    margin-right: 0px;
-    margin-bottom: 10px;
+    flex-direction: column;
+    flex-wrap:wrap;
+    flex-flow: row wrap;
+    flex: 100%;
+    width: auto;
+   
   }
 `;
 

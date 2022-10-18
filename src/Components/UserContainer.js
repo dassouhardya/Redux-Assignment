@@ -62,7 +62,7 @@ const UserContainer = ({ fetchUsers, userData }) => {
     } else {
       setError("❌Please select atleast one field.❌");
     }
-    console.log(userIds);
+    // console.log(userIds);
   };
   useEffect(() => {
     fetchUsers();
