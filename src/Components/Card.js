@@ -21,8 +21,7 @@ const Cards = styled.div`
 
   @media only screen and (max-width: 800px) {
     flex-direction:column;
-    margin-right: 0px;
-    margin-bottom: 10px;
+    width: auto;
   }
 `;
 
